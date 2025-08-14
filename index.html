@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Cliques</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(177, 147, 248, 0.247);
+            text-align: center;
+            padding-top: 50px;
+        }
+
+       #numero{
+        font-size: 48px;
+        font-weight: bold;
+        margin: 20px ;
+       }
+
+       button{
+        background-color: rgba(131, 52, 184, 0.829);
+        color: white;
+        border: none;
+        padding: 5px 20px;
+        font-size: 18px;
+        border-radius: 8px;
+        margin: 5px;
+       }
+
+       button:hover{
+        background-color: black;
+       }
+    </style>
+</head>
+<body>
+    <h1>CONTADOR DE CLIQUES</h1>
+    <p id="numero">0</p>
+    <button id="botao">Clique Aqui!</button>
+    <button id="zerar">Zerar</button>
+
+   <script>
+    let contador=0
+
+    document.getElementById("botao").addEventListener("click", function(){
+        contador++;
+
+    document.getElementById("numero").textContent = contador;
+    });
+
+    document.getElementById("zerar").addEventListener("click", function(){
+        contador=0
+    document.getElementById("numero").textContent= contador = 0;
+    });
+   </script>
+</body>
+</html>
