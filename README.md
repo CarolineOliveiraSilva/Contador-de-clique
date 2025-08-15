@@ -23,4 +23,4 @@ criar algo interativo, que responde as açoes do usuário.
 
   Clique aqui para abrir
 
-  https://carolineoliveirasilva.github.io/Contadorclique/
+  https://carolineoliveirasilva.github.io/Contador-de-clique/
